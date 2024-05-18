@@ -1,2 +1,2 @@
 # Actividad 11: Ejercicio con Árboles Binarios de Búsqueda.
-#### Ya quiero salir de vacaciones :((
+### Realizar un  programa  que  lea  una  cadena  de  texto  proporcionada  por  el  usuario  y  que produzca  como  resultado  la  lista  ordenada  de  menor  a  mayor  de  todas  las  palabras diferentes contenidas en la cadena, así como su frecuencia de aparición.

@@ -25,6 +25,7 @@ public class Tree {
     // The first insertion will be checked in the main program
     public Node insertNode(String info, Node node){
         Collator collator = Collator.getInstance(new Locale("es", "ES"));
+        collator.setStrength(Collator.PRIMARY);
 
         if (node == null) node = new Node(info);
         else if (0 > collator.compare(info, node.getInfo())) node.setLeft(insertNode(info, node.getLeft()));
